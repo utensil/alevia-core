@@ -1,0 +1,28 @@
+{
+  "name": "alevia-core",
+  "version": "0.0.1",
+  "description": "alevia-core",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "webpack --color --watch",
+    "test": "webpack --color && mocha-phantomjs test/index.html"
+  },
+  "repository": "https://github.com/utensil/alevia-core",
+  "author": "utensil",
+  "license": "MIT",
+  "devDependencies": {
+    "babel": "^4.7.1",
+    "babel-core": "^4.7.1",
+    "babel-loader": "^4.1.0",
+    "chai": "^3.0.0",
+    "css-loader": "^0.14.5",
+    "lodash": "^3.4.0",
+    "mocha": "^2.2.5",
+    "mocha-phantomjs": "^3.5.3",
+    "phantomjs": "^1.9.17",
+    "script-loader": "^0.6.1",
+    "style-loader": "^0.12.3",
+    "webpack": "^1.7.2",
+    "webpack-dev-server": "^1.7.0"
+  }
+}
