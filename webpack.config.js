@@ -25,7 +25,7 @@ var common_config = {
   ]
 };
 
-var configs = _.map(['test-deps.js', 'tests.js'], function (js_name) {
+var configs = _.map(['test_deps.js', 'test_all.js'], function (js_name) {
     var config = {
         entry: {
 
