@@ -5,7 +5,7 @@
   "main": "src/index.js",
   "scripts": {
     "dev": "webpack --color --watch",
-    "test": "webpack --color && mocha-phantomjs test/index.html",
+    "test": "webpack --color && mocha-phantomjs  -s localToRemoteUrlAccessEnabled=true -s webSecurityEnabled=false  test/index.html",
     "clean": "rm -rf test/build"
   },
   "repository": "https://github.com/utensil/alevia-core",
