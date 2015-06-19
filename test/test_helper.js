@@ -1,6 +1,6 @@
 let test_helper = {
   require_source: function (path) {
-    return require(__dirname + '/../src/');
+    return require(__dirname + '/../src/' + path);
   }
 };
 
